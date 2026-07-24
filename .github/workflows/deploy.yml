@@ -27,7 +27,7 @@ jobs:
 
       - name: Install dependencies & Build
         run: |
-          npm ci
+          npm install
           npm run build
 
       - name: Upload artifact for GitHub Pages
